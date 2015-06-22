@@ -4,7 +4,6 @@ using System.Reflection;
 //using System;
 
 public class Factory : MonoBehaviour {
-    // protected static Factory instance; // Needed
     public GameObject heroPefab;
     public GameObject enemyPefab;
     public GameObject playerPefab;

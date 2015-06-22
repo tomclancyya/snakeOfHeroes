@@ -58,7 +58,7 @@ public class Hero : Mob {
     }  
 
     public bool AreYouAlone() {
-        return (previousNeighbor == nextNeighbor);
+        return (previousNeighbor == nextNeighbor && isLast);
     }
 
     public override float AttackPowerModificator(Mob enemy) {

@@ -16,7 +16,7 @@ static class Consts
     public const int BOARD_SIZE_X = 20; //amount of cell on game board
     public const int BOARD_SIZE_Y = 10; //amount of cell on game board
 
-    public const float SPAWN_SPEED = 1.0f;
+    public const float SPAWN_SPEED = 2.0f; // more is slower
     public const int MAX_MOBS = 30;
 
     
