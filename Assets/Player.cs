@@ -39,9 +39,9 @@ public class Player : MonoBehaviour {
 
             targetTime -= Time.deltaTime;
             if (targetTime <= 0.0f) {
-                if (lastKeyEventY == -1)
-                    PreviousHeroIsLeader();
                 if (lastKeyEventY == 1)
+                    PreviousHeroIsLeader();
+                if (lastKeyEventY == -1)
                     NextHeroIsLeader();
 
                 if (invertDirection) {
